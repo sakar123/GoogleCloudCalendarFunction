@@ -108,6 +108,8 @@ namespace book_appointment_webhook
 
             UserCredential credential;
 
+            //var codeReceiver = new ICodeReceiver
+
             // Load the client secrets file
             using (var stream =
                 new FileStream(clientSecretsFile, FileMode.Open, FileAccess.Read))
